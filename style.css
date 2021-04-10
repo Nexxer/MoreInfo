@@ -7,6 +7,10 @@
 
 .page {
   font-family: sans-serif;
+  background-image: url("./thomas-tastet-hSODeSbvzE0-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: wheat;
 }
 
 .page__body {
@@ -28,7 +32,7 @@
 /* HEADER */
 .header {
   padding: 20px;
-  background-color: tomato;
+  /* background-color: tomato; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -55,7 +59,7 @@
   row-gap: 20px;
   align-content: start;
   padding: 20px;
-  background-color: ivory;
+  /* background-color: ivory; */
   contain: layout inline-size;
 }
 @media (min-width: 600px) {
@@ -92,7 +96,19 @@ iframe {
 /* SIDEBAR*/
 .aside {
   padding: 20px;
-  background-color: wheat;
+  /* background-color: wheat; */
+}
+
+.left__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left__link {
+  color: antiquewhite;
+  text-decoration: none;
+  line-height: 45px;
 }
 
 @media (min-width: 600px) {
@@ -105,7 +121,7 @@ iframe {
 /* FOOTER */
 .footer {
   padding: 20px;
-  background-color: plum;
+  /* background-color: plum; */
 }
 
 @media (min-width: 600px) {
