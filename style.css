@@ -75,21 +75,33 @@
 
 .projects {
 }
+
 .projects__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
+
 .projects__title {
 }
+
 .project__content {
+  position: relative;
   text-align: center;
   margin: 1em;
   width: 300px;
   background: rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
+
+.project__content:hover .project__links {
+  display: flex;
+}
+
 .project__title {
 }
+
 .project__viewport {
   margin: auto;
   width: 256px;
@@ -104,15 +116,38 @@
   transform: scale(0.25);
   transform-origin: 0 0;
 }
+
 .project__info {
 }
+
 .project__links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
 }
+
 .project__link {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  z-index: 5;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 5px;
+  font-size: 25px;
 }
+
 .project__link_code {
+  background-color: rgba(101, 124, 223, 0.507);
 }
+
 .project__link_link {
+  background-color: rgba(101, 223, 148, 0.507);
 }
 
 /* SIDEBAR*/
