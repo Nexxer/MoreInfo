@@ -1,12 +1,12 @@
 @import url("./normalize.css");
-
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@700&family=Roboto&display=swap");
 .page,
 .page__body {
   height: 100%;
 }
 
 .page {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   background-image: url("./thomas-tastet-hSODeSbvzE0-unsplash.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -46,7 +46,10 @@
 }
 
 .header__title {
-  font-weight: 900;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
   margin: 0;
 }
 
