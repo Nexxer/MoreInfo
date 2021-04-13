@@ -7,7 +7,7 @@
 
 .page {
   font-family: "Roboto", sans-serif;
-  background-image: url("./thomas-tastet-hSODeSbvzE0-unsplash.jpg");
+  background-image: url("./images/backgroundImg.jpg");
   background-attachment: fixed;
   background-size: cover;
   color: wheat;
@@ -77,26 +77,25 @@
 }
 
 .projects__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 16px;
 }
 
 .projects__title {
 }
 
 .project__content {
-  position: relative;
   text-align: center;
   /* margin: 1em; */
-  width: 300px;
+  /* width: 300px; */
   background: rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
 
-.project__content:hover .project__links {
+.project__viewport:hover .project__links {
   display: flex;
 }
 
@@ -104,21 +103,21 @@
 }
 
 .project__viewport {
+  position: relative;
   margin: auto;
-  width: 256px;
-  height: 192px;
+  width: 90%;
   overflow: hidden;
+}
+
+.project__image {
+  display: block;
+  width: 100%;
   border-radius: 5px;
 }
 
-.project__iframe {
-  width: 1024px;
-  height: 768px;
-  transform: scale(0.25);
-  transform-origin: 0 0;
-}
-
 .project__info {
+  text-align: start;
+  padding: 20px;
 }
 
 .project__links {
@@ -138,17 +137,19 @@
   text-decoration: none;
   z-index: 5;
   font-weight: bold;
-  color: black;
+
   letter-spacing: 5px;
   font-size: 25px;
 }
 
 .project__link_code {
-  background-color: rgba(101, 124, 223, 0.507);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .project__link_link {
-  background-color: rgba(101, 223, 148, 0.507);
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* SIDEBAR*/
