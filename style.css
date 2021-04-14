@@ -107,7 +107,6 @@
 .project__viewport {
   position: relative;
   margin: auto;
-  width: 90%;
   overflow: hidden;
 }
 
@@ -119,7 +118,7 @@
 
 .project__info {
   text-align: start;
-  padding: 15px 20px 0;
+  padding: 15px 0 0;
   margin: 0;
 }
 

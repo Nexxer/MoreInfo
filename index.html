@@ -1,138 +1,202 @@
 <!DOCTYPE html>
 <html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base target="_blank" />
+    <title>Nek Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <base target="_blank" />
-  <title>Nek Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body class="page__body">
-  <header class="header">
-    <h1 class="header__title">portfolio</h1>
-    <p class="header__author">Автор: Якунин Игорь</p>
-  </header>
-  <main class="main">
-    <div class="projects">
-      <!-- Блок учебных проектов -->
-      <h2 class="projects__title">Учебные проекты</h2>
-      <div class="projects__wrapper">
-        <!-- #1 -->
-        <div class="project__content">
-          <h3 class="project__title">Как учиться</h3>
-          <div class="project__viewport">
-            <img src="./images/HowToLearn.jpg" alt="img" class="project__image" />
-            <div class="project__links">
-              <a class="project__link project__link_code" href="https://github.com/Nexxer/how-to-learn">Код</a>
-              <a class="project__link project__link_link" href="https://nexxer.github.io/how-to-learn/">Сайт</a>
+  <body class="page__body">
+    <header class="header">
+      <h1 class="header__title">portfolio</h1>
+      <p class="header__author">Автор: Якунин Игорь</p>
+    </header>
+    <main class="main">
+      <div class="projects">
+        <!-- Блок учебных проектов -->
+        <h2 class="projects__title">Учебные проекты</h2>
+        <div class="projects__wrapper">
+          <!-- #1 -->
+          <div class="project__content">
+            <h3 class="project__title">Новости (ReactJS / Backend)</h3>
+            <div class="project__viewport">
+              <img src="./images/News.jpg" alt="img" class="project__image" />
+              <div class="project__links">
+                <a
+                  class="project__link project__link_code"
+                  href="https://github.com/Nexxer/news-explorer-frontend"
+                  >Код</a
+                >
+                <a
+                  class="project__link project__link_link"
+                  href="https://neknews.students.nomoreparties.xyz/"
+                  >Сайт</a
+                >
+              </div>
             </div>
+            <p class="project__info">
+              Проект "Новости" - поисковик новостей с использованием стороннего
+              API. С возможностью регистрации и сохранением статей в личный
+              кабинет (backend сделан на NodeJS, Express, MongoDB, Joi/celebrate)
+            </p>
+            <p class="project__info">
+              <span class="project__info_bold">Получены навыки:</span> HTML,
+              CSS, JS, git (flex, grid, position, анимация, БЭМ, @media, формы,
+              popup, операции с DOM, API, SPA)
+            </p>
+            <p class="project__info">
+              <span class="project__info_bold">Тестовый пользователь:</span>
+              <br />
+              email: test@mail.ru <br />password: 123
+            </p>
           </div>
-          <p class="project__info">Типовой одностраничный сайт.</p>
-          <p class="project__info">
-            <span class="project__info_bold">Получены навыки:</span> HTML, CSS
-            (flex, position, iframe, анимация, БЭМ)
-          </p>
-        </div>
 
-        <!-- #2 -->
-        <div class="project__content">
-          <h3 class="project__title">Путешествие по России</h3>
-          <div class="project__viewport">
-            <img src="./images/Travel.jpg" alt="img" class="project__image" />
-            <div class="project__links">
-              <a class="project__link project__link_code" href="https://github.com/Nexxer/russian-travel">Код</a>
-              <a class="project__link project__link_link" href="https://nexxer.github.io/russian-travel/">Сайт</a>
+          <!-- #2 -->
+          <div class="project__content">
+            <h3 class="project__title">Место (ReactJS / Backend)</h3>
+            <div class="project__viewport">
+              <img
+                src="./images/MstoReact.jpg"
+                alt="img"
+                class="project__image"
+              />
+              <div class="project__links">
+                <a
+                  class="project__link project__link_code"
+                  href="https://github.com/Nexxer/react-mesto-api-full"
+                  >Код</a
+                >
+                <a
+                  class="project__link project__link_link"
+                  href="http://www.nekker.students.nomoreparties.xyz/"
+                  >Сайт</a
+                >
+              </div>
             </div>
+            <p class="project__info">
+              Проект "Место" портированный на ReactJS, с написанием собственного
+              backend'a
+            </p>
+            <p class="project__info">
+              <span class="project__info_bold">Получены навыки:</span> HTML,
+              CSS, JS, git (flex, grid, position, анимация, БЭМ, @media, формы,
+              popup, операции с DOM, API, SPA)
+            </p>
+            <p class="project__info">
+              <span class="project__info_bold">Тестовый пользователь:</span>
+              <br />
+              email: test@mail.ru <br />password: 123
+            </p>
           </div>
-          <p class="project__info">
-            Верстка одностраничного адаптивного сайта о путешествиях по
-            стране.
-          </p>
-          <p class="project__info">
-            <span class="project__info_bold">Получены навыки:</span> HTML,
-            CSS, git (flex, grid, position, БЭМ, @media)
-          </p>
-        </div>
 
-        <!-- #3 -->
-        <div class="project__content">
-          <h3 class="project__title">Место</h3>
-          <div class="project__viewport">
-            <img src="./images/Mesto.jpg" alt="img" class="project__image" />
-            <div class="project__links">
-              <a class="project__link project__link_code" href="https://github.com/Nexxer/mesto">Код</a>
-              <a class="project__link project__link_link" href="https://nexxer.github.io/mesto/">Сайт</a>
+          <!-- #3 -->
+          <div class="project__content">
+            <h3 class="project__title">Место</h3>
+            <div class="project__viewport">
+              <img src="./images/Mesto.jpg" alt="img" class="project__image" />
+              <div class="project__links">
+                <a
+                  class="project__link project__link_code"
+                  href="https://github.com/Nexxer/mesto"
+                  >Код</a
+                >
+                <a
+                  class="project__link project__link_link"
+                  href="https://nexxer.github.io/mesto/"
+                  >Сайт</a
+                >
+              </div>
             </div>
+            <p class="project__info">
+              Интерактивная страница, куда можно добавлять фотографии, удалять
+              их и ставить лайки.
+            </p>
+            <p class="project__info">
+              <span class="project__info_bold">Получены навыки:</span> HTML,
+              CSS, JS, git (flex, grid, position, анимация, БЭМ, @media, формы,
+              popup, операции с DOM)
+            </p>
           </div>
-          <p class="project__info">
-            Интерактивная страница, куда можно добавлять фотографии, удалять
-            их и ставить лайки.
-          </p>
-          <p class="project__info">
-            <span class="project__info_bold">Получены навыки:</span> HTML,
-            CSS, JS, git (flex, grid, position, анимация, БЭМ, @media, формы,
-            popup, операции с DOM)
-          </p>
-        </div>
 
-        <!-- #4 -->
-        <div class="project__content">
-          <h3 class="project__title">Место React / Backend</h3>
-          <div class="project__viewport">
-            <img src="./images/MstoReact.jpg" alt="img" class="project__image" />
-            <div class="project__links">
-              <a class="project__link project__link_code" href="https://github.com/Nexxer/react-mesto-api-full">Код</a>
-              <a class="project__link project__link_link" href="http://www.nekker.students.nomoreparties.xyz/">Сайт</a>
+          <!-- #4 -->
+          <div class="project__content">
+            <h3 class="project__title">Путешествие по России</h3>
+            <div class="project__viewport">
+              <img src="./images/Travel.jpg" alt="img" class="project__image" />
+              <div class="project__links">
+                <a
+                  class="project__link project__link_code"
+                  href="https://github.com/Nexxer/russian-travel"
+                  >Код</a
+                >
+                <a
+                  class="project__link project__link_link"
+                  href="https://nexxer.github.io/russian-travel/"
+                  >Сайт</a
+                >
+              </div>
             </div>
+            <p class="project__info">
+              Верстка одностраничного адаптивного сайта о путешествиях по
+              стране.
+            </p>
+            <p class="project__info">
+              <span class="project__info_bold">Получены навыки:</span> HTML,
+              CSS, git (flex, grid, position, БЭМ, @media)
+            </p>
           </div>
-          <p class="project__info">
-            Проект "Место" портированный на ReactJS, с написанием собственного
-            backend'a
-          </p>
-          <p class="project__info">
-            <span class="project__info_bold">Получены навыки:</span> HTML,
-            CSS, JS, git (flex, grid, position, анимация, БЭМ, @media, формы,
-            popup, операции с DOM) test@mail.ru 123
-          </p>
-        </div>
 
-        <!-- #5 -->
-        <div class="project__content">
-          <h3 class="project__title">Новости</h3>
-          <div class="project__viewport">
-            <img src="./images/News.jpg" alt="img" class="project__image" />
-            <div class="project__links">
-              <a class="project__link project__link_code"
-                href="https://github.com/Nexxer/news-explorer-frontend">Код</a>
-              <a class="project__link project__link_link" href="https://neknews.students.nomoreparties.xyz/">Сайт</a>
+          <!-- #5 -->
+          <div class="project__content">
+            <h3 class="project__title">Как учиться</h3>
+            <div class="project__viewport">
+              <img
+                src="./images/HowToLearn.jpg"
+                alt="img"
+                class="project__image"
+              />
+              <div class="project__links">
+                <a
+                  class="project__link project__link_code"
+                  href="https://github.com/Nexxer/how-to-learn"
+                  >Код</a
+                >
+                <a
+                  class="project__link project__link_link"
+                  href="https://nexxer.github.io/how-to-learn/"
+                  >Сайт</a
+                >
+              </div>
             </div>
+            <p class="project__info">Типовой одностраничный сайт.</p>
+            <p class="project__info">
+              <span class="project__info_bold">Получены навыки:</span> HTML, CSS
+              (flex, position, iframe, анимация, БЭМ)
+            </p>
           </div>
-          <p class="project__info">test@mail.ru 123</p>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <aside class="aside">
-    <nav>
-      <h3>Навигация</h3>
-      <ol class="left__links">
-        <li>
-          <a class="left__link" href="learning-project">Учебные проекты</a>
-        </li>
-        <li><a class="left__link" href="pet-project">Pet-проекты</a></li>
-        <li><a class="left__link" href="tests">Тестовые задания</a></li>
-        <li>
-          <a class="left__link" href="useful-info">Полезная информация</a>
-        </li>
-        <li><a class="left__link" href="about-me">Обо мне</a></li>
-      </ol>
-    </nav>
-  </aside>
+    <aside class="aside">
+      <nav>
+        <h3>Навигация</h3>
+        <ol class="left__links">
+          <li>
+            <a class="left__link" href="learning-project">Учебные проекты</a>
+          </li>
+          <li><a class="left__link" href="pet-project">Pet-проекты</a></li>
+          <li><a class="left__link" href="tests">Тестовые задания</a></li>
+          <li>
+            <a class="left__link" href="useful-info">Полезная информация</a>
+          </li>
+          <li><a class="left__link" href="about-me">Обо мне</a></li>
+        </ol>
+      </nav>
+    </aside>
 
-  <footer class="footer">PODVAL</footer>
-</body>
-
+    <footer class="footer">PODVAL</footer>
+  </body>
 </html>
