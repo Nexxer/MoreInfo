@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" class="page">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base target="_blank" />
-    <title>Nek Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body class="page__body">
-    <header class="header">
-      <h1 class="header__title">portfolio</h1>
-      <p class="header__author">Автор: Якунин Игорь</p>
-    </header>
-    <main class="main">
-      <div class="projects">
-        <!-- Блок учебных проектов -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base target="_blank" />
+  <title>Nek Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="page__body">
+  <header class="header">
+    <h1 class="header__title">portfolio</h1>
+    <p class="header__author">Автор: Якунин Игорь</p>
+  </header>
+  <main class="main">
+    <div class="projects">
+
+      <!-- Блок учебных проектов -->
+      <section id="learning-project">
         <h2 class="projects__title">Учебные проекты</h2>
         <div class="projects__wrapper">
           <!-- #1 -->
@@ -24,16 +27,9 @@
             <div class="project__viewport">
               <img src="./images/News.jpg" alt="img" class="project__image" />
               <div class="project__links">
-                <a
-                  class="project__link project__link_code"
-                  href="https://github.com/Nexxer/news-explorer-frontend"
-                  >Код</a
-                >
-                <a
-                  class="project__link project__link_link"
-                  href="https://neknews.students.nomoreparties.xyz/"
-                  >Сайт</a
-                >
+                <a class="project__link project__link_code"
+                  href="https://github.com/Nexxer/news-explorer-frontend">Код</a>
+                <a class="project__link project__link_link" href="https://neknews.students.nomoreparties.xyz/">Сайт</a>
               </div>
             </div>
             <p class="project__info">
@@ -57,22 +53,12 @@
           <div class="project__content">
             <h3 class="project__title">Место (ReactJS / Backend)</h3>
             <div class="project__viewport">
-              <img
-                src="./images/MstoReact.jpg"
-                alt="img"
-                class="project__image"
-              />
+              <img src="./images/MstoReact.jpg" alt="img" class="project__image" />
               <div class="project__links">
-                <a
-                  class="project__link project__link_code"
-                  href="https://github.com/Nexxer/react-mesto-api-full"
-                  >Код</a
-                >
-                <a
-                  class="project__link project__link_link"
-                  href="http://www.nekker.students.nomoreparties.xyz/"
-                  >Сайт</a
-                >
+                <a class="project__link project__link_code"
+                  href="https://github.com/Nexxer/react-mesto-api-full">Код</a>
+                <a class="project__link project__link_link"
+                  href="http://www.nekker.students.nomoreparties.xyz/">Сайт</a>
               </div>
             </div>
             <p class="project__info">
@@ -97,16 +83,8 @@
             <div class="project__viewport">
               <img src="./images/Mesto.jpg" alt="img" class="project__image" />
               <div class="project__links">
-                <a
-                  class="project__link project__link_code"
-                  href="https://github.com/Nexxer/mesto"
-                  >Код</a
-                >
-                <a
-                  class="project__link project__link_link"
-                  href="https://nexxer.github.io/mesto/"
-                  >Сайт</a
-                >
+                <a class="project__link project__link_code" href="https://github.com/Nexxer/mesto">Код</a>
+                <a class="project__link project__link_link" href="https://nexxer.github.io/mesto/">Сайт</a>
               </div>
             </div>
             <p class="project__info">
@@ -126,16 +104,8 @@
             <div class="project__viewport">
               <img src="./images/Travel.jpg" alt="img" class="project__image" />
               <div class="project__links">
-                <a
-                  class="project__link project__link_code"
-                  href="https://github.com/Nexxer/russian-travel"
-                  >Код</a
-                >
-                <a
-                  class="project__link project__link_link"
-                  href="https://nexxer.github.io/russian-travel/"
-                  >Сайт</a
-                >
+                <a class="project__link project__link_code" href="https://github.com/Nexxer/russian-travel">Код</a>
+                <a class="project__link project__link_link" href="https://nexxer.github.io/russian-travel/">Сайт</a>
               </div>
             </div>
             <p class="project__info">
@@ -152,22 +122,10 @@
           <div class="project__content">
             <h3 class="project__title">Как учиться</h3>
             <div class="project__viewport">
-              <img
-                src="./images/HowToLearn.jpg"
-                alt="img"
-                class="project__image"
-              />
+              <img src="./images/HowToLearn.jpg" alt="img" class="project__image" />
               <div class="project__links">
-                <a
-                  class="project__link project__link_code"
-                  href="https://github.com/Nexxer/how-to-learn"
-                  >Код</a
-                >
-                <a
-                  class="project__link project__link_link"
-                  href="https://nexxer.github.io/how-to-learn/"
-                  >Сайт</a
-                >
+                <a class="project__link project__link_code" href="https://github.com/Nexxer/how-to-learn">Код</a>
+                <a class="project__link project__link_link" href="https://nexxer.github.io/how-to-learn/">Сайт</a>
               </div>
             </div>
             <p class="project__info">Типовой одностраничный сайт.</p>
@@ -176,27 +134,49 @@
               (flex, position, iframe, анимация, БЭМ)
             </p>
           </div>
-        </div>
-      </div>
-    </main>
+      </section>
+                  <!-- pet-project -->
+      <section id="pet-project">
+        <h2 class="projects__title">Pet-проекты</h2>
+        <div class="projects__wrapper">
+          <!-- #1 -->
 
-    <aside class="aside">
-      <nav>
-        <h3>Навигация</h3>
-        <ol class="left__links">
-          <li>
-            <a class="left__link" href="learning-project">Учебные проекты</a>
-          </li>
-          <li><a class="left__link" href="pet-project">Pet-проекты</a></li>
-          <li><a class="left__link" href="tests">Тестовые задания</a></li>
-          <li>
-            <a class="left__link" href="useful-info">Полезная информация</a>
-          </li>
-          <li><a class="left__link" href="about-me">Обо мне</a></li>
-        </ol>
-      </nav>
-    </aside>
+      </section>
+            <!-- Блок тестовых заданий -->
+      <section id="tests">
+        <h2 class="projects__title">Тестовые задания</h2>
+        <div class="projects__wrapper">
+          <!-- #1 -->
 
-    <footer class="footer">PODVAL</footer>
-  </body>
+      </section>
+
+           </section>
+            <!-- Блок обо мне -->
+      <section id="about-me">
+        <h2 class="projects__title">Обо мне</h2>
+        <div class="projects__wrapper">
+          <!-- #1 -->
+
+      </section>
+    </div>
+    </div>
+  </main>
+
+  <aside class="aside">
+    <nav>
+      <h3>Навигация</h3>
+      <ol class="left__links">
+        <li>
+          <a class="left__link" href="#learning-project" target="_parent">Учебные проекты</a>
+        </li>
+        <li><a class="left__link" href="pet-project">Pet-проекты</a></li>
+        <li><a class="left__link" href="tests">Тестовые задания</a></li>
+        <li><a class="left__link" href="about-me">Обо мне</a></li>
+      </ol>
+    </nav>
+  </aside>
+
+  <footer class="footer">PODVAL</footer>
+</body>
+
 </html>

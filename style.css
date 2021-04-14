@@ -1,5 +1,6 @@
 @import url("./normalize.css");
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto&display=swap");
+
 .page,
 .page__body {
   height: 100%;
@@ -11,6 +12,7 @@
   background-attachment: fixed;
   background-size: cover;
   color: wheat;
+  scroll-behavior: smooth;
 }
 
 .page__body {
@@ -21,7 +23,7 @@
 
 @media (min-width: 600px) {
   .page__body {
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 250px 1fr;
   }
 }
 
@@ -82,7 +84,7 @@
 }
 
 .projects__title {
-
+  margin: 20px 0;
 }
 
 .project__content {
@@ -101,7 +103,7 @@
 }
 
 .project__title {
-   margin-top: 0;
+  margin-top: 0;
 }
 
 .project__viewport {
