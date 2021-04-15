@@ -79,7 +79,7 @@
 
 .projects__wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 16px;
 }
 
