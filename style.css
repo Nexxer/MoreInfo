@@ -31,7 +31,6 @@
 
 .header {
   padding: 20px;
-  /* background-color: tomato; */
   background-color: #000;
   display: flex;
   justify-content: space-around;
@@ -85,6 +84,8 @@
 }
 
 .projects__title {
+  font-family: "Play", sans-serif;
+
   margin: 20px 0;
 }
 
@@ -102,6 +103,7 @@
 }
 
 .project__title {
+  font-family: "Play", sans-serif;
   margin-top: 0;
 }
 
@@ -259,4 +261,17 @@ nav {
 
 .project__content:after {
   filter: blur(50px);
+}
+
+.about-me {
+}
+
+.about-me__text {
+  text-shadow: 4px 4px 4px black;
+  margin: 14px 0 0;
+}
+
+.about-me__text_attention {
+  font-size: 1.5rem;
+  color: limegreen;
 }
