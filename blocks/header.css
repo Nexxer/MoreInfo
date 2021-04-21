@@ -1,0 +1,26 @@
+
+.header {
+  padding: 20px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .header {
+    grid-column: 1 / -1;
+  }
+}
+
+.header__title {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 0;
+}
+
+.header__author {
+  margin: 0;
+}
