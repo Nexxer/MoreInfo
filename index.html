@@ -10,7 +10,7 @@
 </head>
 
 <body class="page__body">
-  <header class="header">
+  <header class="header" id="header">
     <h1 class="header__title">portfolio</h1>
     <p class="header__author">Автор: Якунин Игорь</p>
   </header>
@@ -233,7 +233,8 @@
               </div>
             </div>
             <p class="project__info">
-              Тестовое задание на отображение графиков в библиотеке Chart.js, с иммитацией данных из JSON файла, с возможностью отображения как по дням, так средненедельных значений.
+              Тестовое задание на отображение графиков в библиотеке Chart.js, с иммитацией данных из JSON файла, с
+              возможностью отображения как по дням, так и средненедельных значений.
             </p>
             <p class="project__info">
               <span class="project__info_bold">Получены навыки:</span> JS, Webpack, Chart.js
@@ -246,14 +247,18 @@
       <section id="about-me">
         <h2 class="projects__title">Обо мне</h2>
         <!-- <div class="projects__wrapper"> -->
-          <!-- #1 -->
-          <p class="about-me__text">Доброго времени суток!</p>
-          <p class="about-me__text">Мой интерес к программированию был с детства, но все не получалось начать. И вот 2020г. дает время на реализацию своей тяги и я поступаю на курсы Яндекс.Практикума.</p>
-          <p class="about-me__text">Успешно прохожу курсы "Веб-разработчика" и сдаю дипломную работу на 292 балла из 300.</p>
-          <p class="about-me__text">На данный момент занимаюсь дальнейшем развитием во frontend'е, пробую различные библиотеки, углубляюсь в JS и верстку.</p>
-          <p class="about-me__text">Читаю "классику": "Вы не знаете JS", "Грокаем алгоритмы", "React быстро"</p>
-          <p class="about-me__text">Смотрю выпуски на youtube Ильи Климова, Арчакова Дэнниса, DarkCode и другие.</p>
-          <p class="about-me__text about-me__text_attention">На данный момент ищу работу как junior frontend разработчик</p>
+        <!-- #1 -->
+        <p class="about-me__text">Доброго времени суток!</p>
+        <p class="about-me__text">Мой интерес к программированию был с детства, но все не получалось начать. И вот
+          2020г. дает время на реализацию своей тяги и я поступил на курсы Яндекс.Практикума.</p>
+        <p class="about-me__text">Успешно прошел курсы "Веб-разработчика" и сдал дипломную работу на 292 балла из 300.
+        </p>
+        <p class="about-me__text">На данный момент занимаюсь дальнейшем развитием во frontend'е, пробую различные
+          библиотеки, углубляюсь в JS и верстку.</p>
+        <p class="about-me__text">Читаю "классику": "Вы не знаете JS", "Грокаем алгоритмы", "React быстро"</p>
+        <p class="about-me__text">Смотрю выпуски на youtube Ильи Климова, Арчакова Дэнниса, DarkCode и другие.</p>
+        <p class="about-me__text about-me__text_attention">На данный момент ищу работу как junior frontend разработчик
+        </p>
         <!-- </div> -->
       </section>
     </div>
@@ -279,7 +284,31 @@
     </nav>
   </aside>
 
-  <footer class="footer">PODVAL</footer>
+  <footer class="footer">
+    <p class="footer__copyright">&copy; Игорь Якунин, 2021</p>
+    <a href="#header" class="left__link left__link_footer" target="_parent">Наверх</a>
+    <ul class="footer__menu">
+      Связаться со мной:
+      <li class="footer__menu-item">
+        <a href="https://github.com/Nexxer"
+          class="footer__link footer__link_github"
+          rel="noopener noreferrer">
+        </a>
+        </li>
+      <li class="footer__menu-item">
+      <a href="https://t.me/nekkers"
+          class="footer__link footer__link_telegram"
+          rel="noopener noreferrer">
+        </a>
+      </li>
+      <li class="footer__menu-item">
+        <a href="https://www.linkedin.com/in/maddamon/"
+          class="footer__link footer__link_linkedin"
+          rel="noopener noreferrer">
+        </a>
+      </li>
+    </ul>
+  </footer>
 </body>
 
 </html>
