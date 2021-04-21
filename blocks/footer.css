@@ -1,5 +1,5 @@
 .footer {
-  padding: 20px;
+  padding: 20px 0;
   background-color: black;
   display: flex;
   justify-content: space-evenly;
@@ -13,10 +13,20 @@
 }
 
 .footer__copyright {
+  margin: 0;
 }
 
-.left__link_footer{
-line-height: 1;
+.menu__link_footer {
+  line-height: 1;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .menu__link_footer {
+    display: none;
+  }
 }
 
 .footer__menu {

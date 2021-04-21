@@ -1,38 +1,41 @@
 .aside {
+  display: none;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-nav {
+.aside__menu {
   position: sticky;
   top: 20px;
 }
 
-.left__links {
+.menu__links {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.left__link {
+.menu__link {
   position: relative;
   color: antiquewhite;
   text-decoration: none;
   line-height: 45px;
 }
 
-.left__link:hover {
+.menu__link:hover {
   color: coral;
 }
 
 @media (min-width: 600px) {
   .aside {
+    display: block;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
 }
 
-.left__link:after {
+/* Анимация ссылок*/
+.menu__link:after {
   display: block;
   content: "";
   background-color: coral;
@@ -45,7 +48,7 @@ nav {
   transform: translateX(-50%);
 }
 
-.left__link:hover:after,
-.left__link:focus:after {
+.menu__link:hover:after,
+.menu__link:focus:after {
   width: 100%;
 }
