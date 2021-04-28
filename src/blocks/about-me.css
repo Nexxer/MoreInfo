@@ -1,0 +1,13 @@
+.about-me {
+}
+
+.about-me__text {
+  text-shadow: 4px 4px 4px black;
+  margin: 14px 0 0;
+}
+
+.about-me__text_attention {
+  font-size: 1.5rem;
+  color: #00ffa1;
+  text-decoration: underline;
+}
